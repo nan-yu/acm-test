@@ -3,7 +3,7 @@ kind: RoleBinding
 metadata:
   name: fleet-rrb-actuation-rbac-1
   namespace: ns1
-  labels:
+  annotations:
     configsnc.gke.io/manager: nan-yu
 roleRef:
   apiGroup: rbac.authorization.k8s.io
